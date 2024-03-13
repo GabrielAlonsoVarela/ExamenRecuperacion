@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Pokemon nombre={"pikachu"} imagenUrl={"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png"} />
+      <Pokemon nombre={"pikachu"} indice={0} imagenesUrl={["https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png", "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/25.png", "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/25.png"]} />
       
     </div>
   );
